@@ -3,5 +3,7 @@ django project created
 
 from django.http import HttpResponse
 
+from django.shortcuts import HttpResponse
+
 def index(request):
     return index("welcom to my page")
