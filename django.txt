@@ -1,0 +1,7 @@
+django project created
+
+
+from django.http import HttpResponse
+
+def index(request):
+    return index("welcom to my page")
